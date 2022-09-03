@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoveActivity"
+    android:background="@color/dark_grey_teal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/remove_edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name Of Person To Be Removed"
+        android:textColorHint="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+
+    <Button
+        android:id="@+id/remove_button_one"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="REMOVE 1 PERSON"
+        android:backgroundTint="@color/jalal_teal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/remove_button_all"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:text="REMOVE ALL PEOPLE"
+        android:backgroundTint="@color/jalal_teal"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="200dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        />
+
+</LinearLayout>

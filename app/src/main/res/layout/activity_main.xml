@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/dark_grey_teal"
+    android:theme="@style/Theme.TalkToSomeone3">
+
+    <Button
+        android:id="@+id/main_button_get"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_weight="1"
+        android:text="GET SOMEONE TO TALK TO"
+        android:textSize="30sp"
+        android:backgroundTint="@color/jalal_teal"
+        />
+
+    <Button
+        android:id="@+id/main_button_add"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="ADD SOMEONE FOR LATER"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/jalal_teal"
+        />
+
+    <Button
+        android:id="@+id/main_button_remove"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="REMOVE SOMEONE FROM THE LIST"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/jalal_teal"
+        />
+
+    <Button
+        android:id="@+id/main_button_credits"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="CREDITS"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="125dp"
+        android:backgroundTint="@color/jalal_teal"
+        />
+</LinearLayout>

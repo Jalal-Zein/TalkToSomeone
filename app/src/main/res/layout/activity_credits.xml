@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsActivity"
+    android:orientation="vertical"
+    android:background="@color/dark_grey_teal">
+
+    <TextView
+        android:id="@+id/credits_text_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This application was fully designed and implemented by"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25sp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/credits_text_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hyperlink"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginEnd="25sp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version 1.1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="monospace"
+        />
+
+    <ImageView
+        android:id="@+id/credits_image_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25sp"
+        android:src="@drawable/me" />
+
+
+
+
+</LinearLayout>
